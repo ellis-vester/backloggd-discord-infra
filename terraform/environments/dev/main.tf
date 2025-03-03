@@ -13,7 +13,7 @@ data "aws_ami" "nixos_x86_64" {
 }
 
 resource "aws_instance" "nixos_x86_64" {
-  ami           = "ami-072b8d13c5fe22307"
+  ami           = "ami-0f15407a77389c1a7"
   instance_type = "t3a.small"
   key_name      = "test"
   associate_public_ip_address = true
